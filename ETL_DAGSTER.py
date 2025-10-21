@@ -1,3 +1,7 @@
+"""
+ETL_DAGSTER
+"""
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -76,3 +80,7 @@ def Cargando(extrayendo_lat_long):
     Datos=extrayendo_lat_long
     Datos.to_csv("C:/Users/HP/Desktop/DIPLOMADO MACHINE LEARNING/Modulo 1/DATOS_CSV/Tarea.csv")
     return Datos
+
+
+if __name__ == "__main__":
+    pass
