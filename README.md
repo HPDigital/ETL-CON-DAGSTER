@@ -1,4 +1,4 @@
-# Lagos de Sudamerica ETL
+# ETL CON DAGTER Y TEKINTER
 
 Pipeline ETL para obtener informacion de los lagos mas grandes de Sudamerica.
 Incluye scraping, transformaciones y geocodificacion, con ejecucion desde Dagster

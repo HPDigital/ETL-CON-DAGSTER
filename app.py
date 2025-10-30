@@ -14,7 +14,7 @@ from etl.pipeline import run_etl
 class LakesETLApp(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
-        self.title("Lagos de Sudamerica - ETL")
+        self.title("ETL CON DAGTER Y TEKINTER")
         self.geometry("950x600")
         self.minsize(760, 480)
 
